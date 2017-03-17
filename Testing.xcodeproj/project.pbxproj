@@ -12,6 +12,9 @@
 		04B1FBD01E7BB880008998B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B1FBCE1E7BB880008998B3 /* Main.storyboard */; };
 		04B1FBD21E7BB880008998B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B1FBD11E7BB880008998B3 /* Assets.xcassets */; };
 		04B1FBD51E7BB880008998B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B1FBD31E7BB880008998B3 /* LaunchScreen.storyboard */; };
+		04B1FBDD1E7BBCF5008998B3 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1FBDC1E7BBCF5008998B3 /* ChatTableViewController.swift */; };
+		04B1FBDF1E7BC3D4008998B3 /* RightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1FBDE1E7BC3D4008998B3 /* RightTableViewCell.swift */; };
+		04B1FBE11E7C4625008998B3 /* LeftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1FBE01E7C4625008998B3 /* LeftTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		04B1FBD11E7BB880008998B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B1FBD41E7BB880008998B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B1FBD61E7BB880008998B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B1FBDC1E7BBCF5008998B3 /* ChatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
+		04B1FBDE1E7BC3D4008998B3 /* RightTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightTableViewCell.swift; sourceTree = "<group>"; };
+		04B1FBE01E7C4625008998B3 /* LeftTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				04B1FBCA1E7BB880008998B3 /* AppDelegate.swift */,
 				04B1FBCC1E7BB880008998B3 /* ViewController.swift */,
 				04B1FBCE1E7BB880008998B3 /* Main.storyboard */,
+				04B1FBDC1E7BBCF5008998B3 /* ChatTableViewController.swift */,
+				04B1FBDE1E7BC3D4008998B3 /* RightTableViewCell.swift */,
+				04B1FBE01E7C4625008998B3 /* LeftTableViewCell.swift */,
 				04B1FBD11E7BB880008998B3 /* Assets.xcassets */,
 				04B1FBD31E7BB880008998B3 /* LaunchScreen.storyboard */,
 				04B1FBD61E7BB880008998B3 /* Info.plist */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B1FBDF1E7BC3D4008998B3 /* RightTableViewCell.swift in Sources */,
+				04B1FBE11E7C4625008998B3 /* LeftTableViewCell.swift in Sources */,
 				04B1FBCD1E7BB880008998B3 /* ViewController.swift in Sources */,
 				04B1FBCB1E7BB880008998B3 /* AppDelegate.swift in Sources */,
+				04B1FBDD1E7BBCF5008998B3 /* ChatTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
